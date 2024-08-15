@@ -1,0 +1,47 @@
+body {
+  position: relative;
+}
+
+#search-section {
+  min-height: 50vh;
+  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(./img/library.jpg);
+  color: white;
+  text-align: center;
+}
+
+#search-section p {
+  font-size: 20px;
+}
+
+#search-section p, #word-search-form {
+  max-width: 500px;
+}
+
+#results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15%;
+}
+
+#no-word-found {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 33px;
+  padding: 5px 0;
+  background-color: rgb(35, 27, 28);
+  color: white;
+}
+
+/* Typography */
+h1 {
+  font-family: 'Calistoga', sans-serif;
+}
